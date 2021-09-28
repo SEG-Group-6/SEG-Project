@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#header ul {
+    overflow: hidden;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background: rgb(38,83,139);
+    background: linear-gradient(90deg, rgba(38,83,139,1) 0%, rgba(9,121,114,1) 39%, rgba(200,0,255,1) 100%);
+    opacity: 0.8;
+}
+
+#header ul li {
+    float: left;
+}
+
+#header ul li a{
+    display: block;
+    padding: 0.8em 1em;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+#logo {
+    letter-spacing: 3px;
+}
+
+#header ul li a:hover:not(.current){
+    background-color: firebrick;
+}
+
+.current {
+    background-color: purple;
+}
