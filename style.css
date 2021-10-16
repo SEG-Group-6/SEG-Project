@@ -9,12 +9,13 @@ body {
     margin: 0;
     padding: 0;
     background: rgb(38,83,139);
-    background: linear-gradient(90deg, rgba(38,83,139,1) 0%, rgba(9,121,114,1) 39%, rgba(200,0,255,1) 100%);
+    background: rgba(255, 255, 255, 0);
+    /*background: linear-gradient(90deg, rgba(38,83,139,1) 0%, rgba(9,121,114,1) 39%, rgba(200,0,255,1) 100%);*/
     opacity: 0.8;
 }
 
 #header ul li {
-    float: left;
+    float: right;
 }
 
 #header ul li a{
@@ -23,6 +24,7 @@ body {
     text-decoration: none;
     color: white;
     font-weight: bold;
+    font-size: 1.5em;
 }
 
 #logo {
@@ -34,5 +36,48 @@ body {
 }
 
 .current {
-    background-color: purple;
+    background-color: rgb(23, 157, 180);
+}
+.parallelogram {
+    width: 600px;
+    height: 150px;
+    transform: skew(10deg);
+    background: rgb(100, 210, 245);
+    position: relative;
+    left: 14em;
+    top: 23em;
+}
+.parallelogram_shadow {
+    width: 600px;
+    height: 150px;
+    transform: skew(10deg);
+    background: rgb(0, 0, 0);
+    position: relative;
+    left: 13.5em;
+    top: 28.5em;
+}
+
+.center {
+margin: 0;
+position: absolute;
+top: 49%;
+left: 49%;
+-ms-transform: translate(-50%, -50%);
+transform: translate(-50%, -50%);
+}
+.centeroffset {
+margin: 0;
+position: absolute;
+top: 54%;
+left: 50%;
+-ms-transform: translate(-50%, -50%);
+transform: translate(-50%, -50%);
+}
+.buttontext {
+    font-size: 60px;
+    color: white
+}
+.buttontextshadow {
+    font-size: 60px;
+    color: black
 }
