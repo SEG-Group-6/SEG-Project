@@ -59,6 +59,27 @@ body {
     left: 14em;
     top: 23em;
 }
+
+.parallelogram2 {
+    width: 250px;
+    height: 100px;
+    transform: skew(10deg);
+    background: rgb(100, 210, 245);
+    position: relative;
+    left: 37em;
+    top: 35em;
+}
+
+.parallelogram3 {
+    width: 250px;
+    height: 100px;
+    transform: skew(10deg);
+    background: rgb(100, 210, 245);
+    position: relative;
+    left: 42em;
+    top: 38em;
+}
+
 .parallelogram_shadow {
     width: 600px;
     height: 150px;
@@ -85,13 +106,32 @@ left: 50%;
 -ms-transform: translate(-50%, -50%);
 transform: translate(-50%, -50%);
 }
+
+.seemoretext {
+    font-size: 60px;
+    color: white
+}
+
 .buttontext {
     font-size: 60px;
+    color: white
+}
+.buttontext2 {
+    font-size: 30px;
     color: white
 }
 .buttontextshadow {
     font-size: 60px;
     color: black
+}
+.buttontextshadow2 {
+    font-size: 30px;
+    color: black
+}
+
+.cheattext {
+    font-size: 30px;
+    color: #00000000
 }
 
 .feature-left {
