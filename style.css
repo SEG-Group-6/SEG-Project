@@ -9,7 +9,7 @@ body {
     margin: 0;
     padding: 0;
     background: rgb(38,83,139);
-    background: rgba(255, 255, 255, 0);
+    background: rgba(0, 0, 0, 0.25);
     /*background: linear-gradient(90deg, rgba(38,83,139,1) 0%, rgba(9,121,114,1) 39%, rgba(200,0,255,1) 100%);*/
     opacity: 0.8;
 }
@@ -42,7 +42,7 @@ body {
 }
 
 .header ul li a:hover:not(.current){
-    background-color: firebrick;
+    background-color: rgb(23, 157, 180);
 }
 
 #feature_header .current {
@@ -50,14 +50,15 @@ body {
     color:white;
 }
 
-.parallelogram {
+.home_parallelogram {
     width: 600px;
     height: 150px;
     transform: skew(10deg);
     background: rgb(100, 210, 245);
     position: relative;
-    left: 14em;
-    top: 23em;
+    left: -35em;
+    top: 7em;
+    box-shadow: 12px 12px #000000;
 }
 
 .parallelogram2 {
@@ -65,9 +66,10 @@ body {
     height: 100px;
     transform: skew(10deg);
     background: rgb(100, 210, 245);
-    position: relative;
+    position: static;
     left: 37em;
     top: 35em;
+    box-shadow: 12px 12px #000000;
 }
 
 .parallelogram3 {
@@ -78,16 +80,7 @@ body {
     position: relative;
     left: 42em;
     top: 38em;
-}
-
-.parallelogram_shadow {
-    width: 600px;
-    height: 150px;
-    transform: skew(10deg);
-    background: rgb(0, 0, 0);
-    position: relative;
-    left: 13.5em;
-    top: 28.5em;
+    box-shadow: 12px 12px #000000;
 }
 
 .center {
@@ -109,24 +102,21 @@ transform: translate(-50%, -50%);
 
 .seemoretext {
     font-size: 60px;
-    color: white
+    color: white;
 }
 
 .buttontext {
     font-size: 60px;
-    color: white
+    color: white;
+    text-shadow: 6px 6px #000000;
 }
 .buttontext2 {
     font-size: 30px;
     color: white
 }
-.buttontextshadow {
-    font-size: 60px;
-    color: black
-}
 .buttontextshadow2 {
     font-size: 30px;
-    color: black
+    color: black;
 }
 
 .cheattext {
