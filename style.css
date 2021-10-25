@@ -166,3 +166,57 @@ transform: translate(-50%, -50%);
 .next:hover{
     background-color: rgb(0, 0, 0);
 }
+
+.section-team{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+    align-items: space-evenly;
+    justify-items: center;
+    align-content: center;
+    margin: 60px;
+    align-content: space-between;
+}
+
+.section-row1{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: space-evenly;
+    justify-items: center;
+    width: 100%;
+}
+
+.section-row2{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: space-evenly;
+    justify-items: center;
+    width: 100%;
+}
+
+.team1, .team2, .team3, .team4, .team5, .team6{
+    width: 30%;
+    background-color: blanchedalmond;
+    background: linear-gradient(50%,50%);
+   
+}
+.team4, .team5, .team6{
+    margin-top: 3%;
+}
+
+.body-team{
+    background-image: url(/Users/bricesoh/Documents/GitHub/SEG-Project/images/team.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title{
+    font-size: xx-large;
+    font-family: comic sans-serif;
+}
+
+.info-center{
+    align: center;
+}
