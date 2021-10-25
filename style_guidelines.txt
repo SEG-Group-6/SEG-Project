@@ -1,0 +1,32 @@
+Overall Look and Feel:
+--==--==--==--==--==--
+
+- Minimalist
+- Futurastic looking
+- Flat
+- Game screenshots filling the backgrounds
+
+Colours:
+==--==--
+Colour scheme will mostly consist of blues, whites and grays
+
+- #26538b
+- #00bec0
+- #45474a
+- #1a1b1c
+- #e6ebed
+- #fafcfc
+
+Iconograhpy:
+--==--==--==
+We will be usings icons and logos that are minimalist and flat, 
+sometimes with drop shadows.
+
+Typograhapy:
+--==--==--==
+- Segoe UI
+
+Buttons:
+--==--==
+Buttons will use basic, flat shapes, mostly rectangles and parallelogram.
+They may also have a drop shadow.
