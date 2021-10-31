@@ -1,11 +1,25 @@
 currentSlide = 0;
 displaySlide(currentSlide);
 
+function prevSlide() {
+    if(currentSlide == 0) 
+    {
+        currentSlide = 2;
+    }
+    else 
+    {
+        currentSlide--;
+    }
+    displaySlide(currentSlide)
+}
+
 function nextSlide() {
-    if(currentSlide == 2){
+    if(currentSlide == 2)
+    {
         currentSlide = 0;
     }
-    else {
+    else 
+    {
         currentSlide++;
     }
     displaySlide(currentSlide);
