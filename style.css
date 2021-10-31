@@ -152,7 +152,7 @@ transform: translate(-50%, -50%);
 
 .next {
     position: absolute;
-    bottom: 130px;
+    top: 610px;
     font-size: 30px;
     padding: 25px 37px;
     border-radius: 50%;
@@ -237,3 +237,23 @@ transform: translate(-50%, -50%);
 .info-center{
     text-align: center;
 }
+
+@media only screen and (max-width: 1200px) {
+    
+    .slide img{
+        display:none;
+    }
+
+    .prev{
+        top: 270px;
+    }
+
+    .next{
+        top:750px;
+    }
+
+    .slide .text {
+        margin-top: 15%;
+    }
+
+  }
