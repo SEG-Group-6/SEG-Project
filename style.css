@@ -66,9 +66,9 @@ body {
     height: 100px;
     transform: skew(10deg);
     background: rgb(100, 210, 245);
-    position: static;
+    position: relative;
     left: 37em;
-    top: 35em;
+    bottom: -38em;
     box-shadow: 12px 12px #000000;
 }
 
