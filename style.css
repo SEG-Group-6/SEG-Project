@@ -27,6 +27,28 @@ body {
     font-size: 1.5em;
 }
 
+.contacttitle{
+    width:100%;
+    padding: 0em 1em;
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 2em;
+    text-shadow: 6px 6px #000000;
+}
+
+.contactname{
+    width:100%;
+    padding: 0em 2em;
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1.75em;
+    text-shadow: 3px 3px #000000;
+}
+
 .youtopia {
     color: #00bec0;
     margin-left: 74px;
@@ -38,7 +60,7 @@ body {
 }
 
 #feature_header ul li a{
-    color: rgb(75, 75, 75);
+    color: rgb(255, 255, 255);
 }
 
 .header ul li a:hover:not(.current){
@@ -179,7 +201,7 @@ transform: translate(-50%, -50%);
 }
 
 .next:hover, .prev:hover{
-    background-color: rgb(0, 0, 0);
+    background-color: #cccccc
 }
 
 .section-team{
@@ -189,7 +211,7 @@ transform: translate(-50%, -50%);
     align-items: space-evenly;
     justify-items: center;
     align-content: center;
-    margin: 60px;
+    margin: 20px;
     align-content: space-between;
 }
 
@@ -199,7 +221,7 @@ transform: translate(-50%, -50%);
     justify-content: space-evenly;
     align-items: space-evenly;
     justify-items: center;
-    width: 100%;
+    width: 96%;
 }
 
 .section-row2{
@@ -208,19 +230,19 @@ transform: translate(-50%, -50%);
     justify-content: space-evenly;
     align-items: space-evenly;
     justify-items: center;
-    width: 100%;
+    width: 96%;
 }
 
 .team1, .team2, .team3, .team4, .team5, .team6{
     width: 30%;
-    padding: 12px;
-    border-radius: 8px;
-    background-color: blanchedalmond;
+    padding: 0px;
+    border-radius: 16px;
+    background-color: rgba(0, 0, 0, 0.4);
     background: linear-gradient(50%,50%);
    
 }
 .team4, .team5, .team6{
-    margin-top: 3%;
+    margin-top: 1%;
 }
 
 .body-team{
@@ -236,6 +258,8 @@ transform: translate(-50%, -50%);
 
 .info-center{
     text-align: center;
+    color: white;
+    font-size: 1.5em;
 }
 
 @media only screen and (max-width: 1200px) {
